@@ -62,7 +62,7 @@
         <div class="highlighted-informations{if !$product.main_variants} no-variants{/if}">
           {block name='quick_view'}
             <a class="quick-view js-quick-view" href="#" data-link-action="quickview">
-              <i class="material-icons search">&#xE8B6;</i> {l s='New 2 Quick view Test' d='Shop.Theme.Actions'}
+              <i class="material-icons search">&#xE8B6;</i> {l s='New 3 Quick view Test' d='Shop.Theme.Actions'}
             </a>
           {/block}
 
