@@ -7418,10 +7418,15 @@ body#checkout
 .product-cover {
   position: relative;
   margin-bottom: 1.25rem;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: solid 1px #bddbce;
 }
 #product-modal .modal-content .modal-body .product-cover-modal,
 .product-cover img {
   background: #fff;
+  border-radius: 10px;
 }
 .product-cover .layer {
   position: absolute;
@@ -7737,7 +7742,7 @@ body#checkout
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.3125rem 0.4375rem;
-  margin-top: 0.625rem;
+  margin-top: 1rem; /*0.625rem;*/
   font-size: 0.9rem;
   font-weight: 700;
   color: #fff;
@@ -7745,6 +7750,7 @@ body#checkout
   word-break: break-word;
   pointer-events: auto;
   background: #68c28d;
+  border-radius: 0 6px 6px 0;
 }
 .product-flags li.product-flag.online-only {
   position: absolute;
