@@ -105,7 +105,7 @@
 
             <div class="product-actions js-product-actions">
               {foreach from=$product.features item=feature name=features}
-              {if ($feature.id_feature == 3) and ($feature.value != 1) }
+              {if ($feature.id_feature == 7) and ($feature.value != 1) }
                 {block name='product_buy'}
                   <form action="{$urls.pages.cart}" method="post" id="add-to-cart-or-refresh">
                     <input type="hidden" name="token" value="{$static_token}">
