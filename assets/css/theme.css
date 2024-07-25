@@ -4790,7 +4790,7 @@ label .color:hover {
 .h1,
 .h2,
 .h3 {
-  text-transform: uppercase;
+  text-transform: none; /* uppercase; */
 }
 .h1,
 .h2,
@@ -10861,4 +10861,15 @@ body#checkout
   .product-line-grid-right .qty {
     width: 100%;
   }
+}
+
+
+
+.page_title {
+  font-size: 2.2rem !important;
+  color: #3a6095 !important;
+
+  text-transform: none !important;;
+  border-bottom: solid 1px #bddbce;
+  padding-bottom: 10px;
 }
