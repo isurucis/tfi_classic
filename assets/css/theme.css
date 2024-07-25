@@ -10927,3 +10927,7 @@ body#checkout
   border: solid 1px #bddbce;
   border-radius: 10px;
 }
+
+.product-container {
+  display: none;
+}
