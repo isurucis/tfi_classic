@@ -77,14 +77,17 @@
             {/block}
           {/block}
           
+          <div style="display: block;">
+            <p class="product-miniature__sku-label mb-2" style="float: left;">SKU:<span class="product-miniature__sku-number mb-2">{$product.reference|escape:'htmlall':'UTF-8'}</span></p>
           {foreach from=$product.features item=feature name=features}
             {if $feature.id_feature == 3}
-              <h2 class="h2 pdp_scientificname">{$feature.value|escape:'htmlall':'UTF-8'}</h2>
+              <p class="h2 pdp_scientificname" style="float: right;">{$feature.value|escape:'htmlall':'UTF-8'}</p>
             {/if}
           {foreachelse}
           {/foreach}
-
-          <p class="product-miniature__sku-label mb-2">SKU:<span class="product-miniature__sku-number mb-2">{$product.reference|escape:'htmlall':'UTF-8'}</span></p>
+            <div style="clear: both;"></div>
+          </div>
+          
 
           {block name='product_prices'}
             {include file='catalog/_partials/product-prices.tpl'}
@@ -117,7 +120,7 @@
                     {block name='product_pack'}
                       {if $packItems}
                         <section class="product-pack">
-                          <p class="h4">{l s='This pack contains' d='Shop.Theme.Catalog'}</p>
+                          <p class="this-pack-contains">{l s='This pack contains' d='Shop.Theme.Catalog'}</p>
                           {foreach from=$packItems item="product_pack"}
                             {block name='product_miniature'}
                               {include file='catalog/_partials/miniatures/pack-product.tpl' product=$product_pack showPackProductsPrice=$product.show_price}

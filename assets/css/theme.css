@@ -7839,6 +7839,10 @@ body#checkout
   display: flex;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+
+  border: solid 1px #bddbce;
+  border-radius: 6px;
+  padding: 2px;
 }
 .product-pack .pack-product-container .pack-product-name {
   -webkit-box-flex: 0;
@@ -10872,4 +10876,31 @@ body#checkout
   text-transform: none !important;;
   border-bottom: solid 1px #bddbce;
   padding-bottom: 10px;
+}
+
+.pdp_scientificname {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.2rem;
+  color: #7387a4;
+  text-align: right;
+}
+
+.this-pack-contains {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.product-miniature__sku-number {
+  margin-bottom: 2px !important;
+}
+
+
+.current-price-value {
+  color: #365053;
+  font-size: 1.5rem;
+  background-color: white;
+  padding: 10px;
+  border: solid 1px #d7d7d7;
+  border-radius: 8px;
 }
