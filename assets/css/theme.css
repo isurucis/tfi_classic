@@ -4725,7 +4725,7 @@ a.text-gray-dark:hover {
   width: 1em;
   height: 1em;
   font-family: "Material Icons", Arial, sans-serif;
-  font-size: 24px;
+  font-size: 1.3rem ;
   font-style: normal;
   font-weight: 500;
   line-height: 1;
@@ -8517,7 +8517,7 @@ body#checkout
 }
 #header .header-nav #_desktop_contact_link #contact-link,
 .sitemap {
-  margin-top: 0.9375rem;
+  margin-top: 0.4rem;
 }
 .sitemap h2 {
   width: 100%;
@@ -8651,7 +8651,7 @@ body#checkout
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11);
 }
 #header .logo {
-  max-width: 70%;
+  max-width: 40%;
   height: auto;
 }
 #header a:hover {
@@ -8691,7 +8691,7 @@ body#checkout
   white-space: nowrap;
 }
 #header .header-nav .user-info {
-  margin-left: 2.5rem;
+  margin-left: .4rem;
   text-align: right;
 }
 #header .header-nav .user-info .account {
@@ -8703,12 +8703,12 @@ body#checkout
   white-space: nowrap;
 }
 #header .header-nav .cart-preview.active {
-  background: #425c5f;
+  background: #c3d7cf;
 }
 #header .header-nav .blockcart.active a:hover,
 #header .header-nav .cart-preview.active a,
 #header .header-nav .cart-preview.active i {
-  color: #fff;
+  color: #334e51;
 }
 #header .header-nav .cart-preview .shopping-cart {
   color: #7a7a7a;
@@ -8719,7 +8719,7 @@ body#checkout
 }
 #header .header-nav .blockcart {
   height: 2rem;
-  padding: 0.75rem;
+  padding: 0.3rem;
   margin-left: 0.9375rem;
   text-align: center;
   white-space: nowrap;
@@ -8745,7 +8745,7 @@ body#checkout
 }
 #header .header-top {
   padding: .1rem; /* 1.25rem 0;*/
-  background-color: #ecfbf5;
+  background-color: #ecfbf5 !important;
   text-align: center;
   border-bottom: solid 1px #bddbce;
 }
