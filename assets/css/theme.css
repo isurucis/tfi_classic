@@ -8664,7 +8664,7 @@ body#checkout
 #header {
   position: relative;
   z-index: 999;
-  color: #7a7a7a;
+  color: #232323;
   background: #fff;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11);
@@ -8730,7 +8730,7 @@ body#checkout
   color: #334e51;
 }
 #header .header-nav .cart-preview .shopping-cart {
-  color: #7a7a7a;
+  color: #232323;
   vertical-align: middle;
 }
 #header .header-nav .cart-preview .body {
@@ -8742,7 +8742,7 @@ body#checkout
   margin-left: 0.9375rem;
   text-align: center;
   white-space: nowrap;
-  background: #f6f6f6;
+  background: #8bc4a2;
 }
 #header .header-nav .blockcart a:hover {
   color: #24b9d7;
