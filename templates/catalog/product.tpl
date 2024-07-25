@@ -83,9 +83,9 @@
             {/if}
           {foreachelse}
           {/foreach}
-t
+
           <p class="product-miniature__sku-label mb-2">SKU:<span class="product-miniature__sku-number mb-2">{$product.reference|escape:'htmlall':'UTF-8'}</span></p>
-t
+
           {block name='product_prices'}
             {include file='catalog/_partials/product-prices.tpl'}
           {/block}
@@ -102,8 +102,8 @@ t
             {/if}
 
             <div class="product-actions js-product-actions">
-              {if !$product->getProductFeatureValue('catalog_only')}
-
+              {foreach from=$product.features item=feature name=features}
+              {if ($feature.id_feature == 3) and ($feature.value != 1) }
                 {block name='product_buy'}
                   <form action="{$urls.pages.cart}" method="post" id="add-to-cart-or-refresh">
                     <input type="hidden" name="token" value="{$static_token}">
@@ -143,9 +143,9 @@ t
                     {block name='product_refresh'}{/block}
                   </form>
                 {/block}
-              {else}
-                  <p>This product is for viewing only.</p>
               {/if}
+              {foreachelse}
+              {/foreach}
             </div>
 
             {block name='hook_display_reassurance'}
