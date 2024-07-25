@@ -4749,8 +4749,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 body {
-  font-family: Manrope, sans-serif;
-  font-size: 1rem;
+  font-family: Roboto, Manrope, sans-serif;
+  font-size: .9rem;
   line-height: 1.25em;
 }
 #header .top-menu a[data-depth="0"]:hover,
@@ -8651,7 +8651,7 @@ body#checkout
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11);
 }
 #header .logo {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 #header a:hover {
@@ -8665,7 +8665,7 @@ body#checkout
 #header .header-nav {
   max-height: 50px;
   border-bottom: #f6f6f6 2px solid;
-  background-color: #7191be;
+  background-color: #c3d7cf;
 }
 #header .header-nav #menu-icon {
   margin: 0 1rem;
@@ -8703,7 +8703,7 @@ body#checkout
   white-space: nowrap;
 }
 #header .header-nav .cart-preview.active {
-  background: #24b9d7;
+  background: #425c5f;
 }
 #header .header-nav .blockcart.active a:hover,
 #header .header-nav .cart-preview.active a,
@@ -8718,7 +8718,7 @@ body#checkout
   display: none;
 }
 #header .header-nav .blockcart {
-  height: 3rem;
+  height: 2rem;
   padding: 0.75rem;
   margin-left: 0.9375rem;
   text-align: center;
@@ -8744,7 +8744,10 @@ body#checkout
   margin-left: -0.375rem;
 }
 #header .header-top {
-  padding: 1.25rem 0;
+  padding: .1rem; /* 1.25rem 0;*/
+  background-color: #ecfbf5;
+  text-align: center;
+  border-bottom: solid 1px #bddbce;
 }
 #header .header-top > .container {
   position: relative;
