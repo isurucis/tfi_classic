@@ -104,8 +104,15 @@
             {/if}
 
             <div class="product-actions js-product-actions">
-              {foreach from=$product.features item=feature name=features}
-              {if ($feature.id_feature == 7) and ($feature.value != 1) }
+            {assign var="feature_exists" value=false}
+
+            {foreach from=$product.features item=feature}
+                {if $feature.id_feature == 7}
+                    {assign var="feature_exists" value=true}
+                {/if}
+            {/foreach}
+
+            {if !$feature_exists}
                 {block name='product_buy'}
                   <form action="{$urls.pages.cart}" method="post" id="add-to-cart-or-refresh">
                     <input type="hidden" name="token" value="{$static_token}">
@@ -145,9 +152,7 @@
                     {block name='product_refresh'}{/block}
                   </form>
                 {/block}
-              {/if}
-              {foreachelse}
-              {/foreach}
+            {/if} 
             </div>
 
             {block name='hook_display_reassurance'}
