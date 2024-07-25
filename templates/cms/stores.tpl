@@ -29,7 +29,7 @@
 {/block}
 
 {block name='page_content_container'}
-  <section id="content" class="page-content page-stores">
+  <section id="content" class="page-content page-stores contentbox">
 
     {foreach $stores as $store}
       <article id="store-{$store.id}" class="store-item card">

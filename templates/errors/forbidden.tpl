@@ -36,7 +36,7 @@
   {/block}
 
   {block name='page_content_container'}
-    <section id="content" class="page-content page-restricted">
+    <section id="content" class="page-content page-restricted contentbox">
         {block name='page_content'}
           <h2>{l s='403 Forbidden' d='Shop.Theme.Global'}</h2>
           <p>{l s="You are not allowed to access this page." d="Shop.Theme.Global"}</p>

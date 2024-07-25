@@ -22,7 +22,7 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
-<section id="content" class="page-content page-not-found">
+<section id="content" class="page-content page-not-found contentbox">
   {block name='page_content'}
     {block name="error_content"}
       {if isset($errorContent)}

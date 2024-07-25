@@ -45,7 +45,7 @@
     {/block}
 
     {block name='page_content_container'}
-      <section id="content" class="page-content page-maintenance">
+      <section id="content" class="page-content page-maintenance contentbox">
         {block name='page_content'}
           {$maintenance_text nofilter}
         {/block}

@@ -10876,6 +10876,9 @@ body#checkout
   text-transform: none !important;;
   border-bottom: solid 1px #bddbce;
   padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
 }
 
 .pdp_scientificname {
@@ -10918,4 +10921,9 @@ body#checkout
 
 .wishlist-button-add {
   display: none !important;
+}
+
+.contentbox {
+  border: solid 1px #bddbce;
+  border-radius: 10px;
 }

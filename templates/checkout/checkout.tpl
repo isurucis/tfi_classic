@@ -29,7 +29,7 @@
 {/block}
 
 {block name='content'}
-  <section id="content">
+  <section id="content" class="contentbox">
     <div class="row">
       <div class="cart-grid-body col-xs-12 col-lg-8">
         {block name='checkout_process'}
