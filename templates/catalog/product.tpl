@@ -159,7 +159,7 @@
 
 
 
-    <div class="row product-container js-product-container">
+    <div class="row product-container js-product-container product-description-details">
       <div class="col-md-12">
           {block name='product_tabs'}
             <div class="tabs">
