@@ -140,8 +140,11 @@
                       {include file='catalog/_partials/product-discounts.tpl'}
                     {/block}
 
+
                     {block name='product_add_to_cart'}
+                    {if $packItems}
                       {include file='catalog/_partials/product-add-to-cart.tpl'}
+                    {/if}
                     {/block}
 
                     {block name='product_additional_info'}
