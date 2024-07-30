@@ -25,7 +25,7 @@
 {extends file='page.tpl'}
 
 {block name='page_header_container'}
-  <div><img src="https://packs.etropicalfish.com/modules/ps_imageslider/images/f5ce2e631e2842050d922dcfbacda86949bcf9e4_contact-banner.jpg" /></div>
+  <div class="row"><img src="https://packs.etropicalfish.com/modules/ps_imageslider/images/f5ce2e631e2842050d922dcfbacda86949bcf9e4_contact-banner.jpg" /></div>
 {/block}
 
 {if $layout === 'layouts/layout-left-column.tpl'}
