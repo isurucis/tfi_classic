@@ -26,6 +26,7 @@
 
 {block name='page_header_container'}{/block}
 
+<div><img src="https://packs.etropicalfish.com/modules/ps_imageslider/images/0daa1b6af2687d3081524c505ae4d25d7e183c59_contact-banner.jpg" /></div>
 {if $layout === 'layouts/layout-left-column.tpl'}
   {block name="left_column"}
     <div id="left-column" class="col-xs-12 col-md-4 col-lg-3">
