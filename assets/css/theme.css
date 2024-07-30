@@ -7849,8 +7849,10 @@ body#checkout
   -webkit-box-flex: 0;
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: #7a7a7a;
+  font-weight: bold;
+  color: #3a6095;
 }
 .product-pack .pack-product-container .pack-product-quantity {
   padding-left: 0.625rem;
@@ -10954,10 +10956,12 @@ body#checkout
   width: 33px;
   height: 33px;
   margin-right: 0.65rem;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: #fff;
   vertical-align: middle;
-  background-color: #00c062;
+  background-color: #4eb779;
   border: 0;
   border-radius: 50%;
+  text-align: center;
+  padding-top: 8px;
 }
