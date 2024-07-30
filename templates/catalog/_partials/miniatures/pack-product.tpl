@@ -69,7 +69,7 @@
         {/if}
 
         <div class="pack-product-quantity">
-          <span>x {$product.pack_quantity}</span>
+          <span class="product-detail-quantity-display">{$product.pack_quantity}</span>
         </div>
       </div>
     </div>
