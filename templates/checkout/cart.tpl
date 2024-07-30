@@ -30,7 +30,7 @@
     <div class="cart-grid row">
 
       <!-- Left Block: cart product informations & shipping -->
-      <div class="cart-grid-body col-lg-8 contentbox" style="margin-left: 10px;">
+      <div class="cart-grid-body col-lg-8 contentbox" style="margin-right: 5px;">
 
         <!-- cart products detailed -->
         <div class="card cart-container" style="background: none; background-color: transparent">
@@ -56,7 +56,7 @@
       </div>
 
       <!-- Right Block: cart subtotal & cart total -->
-      <div class="cart-grid-right col-lg-4 contentbox">
+      <div class="cart-grid-right col-lg-4 contentbox" style="margin-left: 5px;">
 
         {block name='cart_summary'}
           <div class="card cart-summary" style="background: none; background-color: transparent">
