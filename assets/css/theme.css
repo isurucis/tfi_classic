@@ -10928,6 +10928,12 @@ body#checkout
   border-radius: 10px;
 }
 
+.contentbox1 {
+  border-radius: 10px;
+  background-color: #cde1cf;
+  border: none;
+}
+
 .product-description-details {
   /*display: none;*/
 }
