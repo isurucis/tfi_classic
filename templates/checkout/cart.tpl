@@ -30,10 +30,10 @@
     <div class="cart-grid row">
 
       <!-- Left Block: cart product informations & shipping -->
-      <div class="cart-grid-body col-lg-8 contentbox">
+      <div class="cart-grid-body col-lg-8 contentbox" style="margin-left: 10px;">
 
         <!-- cart products detailed -->
-        <div class="card cart-container">
+        <div class="card cart-container" style="background: none; background-color: transparent">
           <div class="card-block">
             <h1 class="h1">{l s='Shopping Cart' d='Shop.Theme.Checkout'}</h1>
           </div>
@@ -59,7 +59,7 @@
       <div class="cart-grid-right col-lg-4 contentbox">
 
         {block name='cart_summary'}
-          <div class="card cart-summary">
+          <div class="card cart-summary" style="background: none; background-color: transparent">
 
             {block name='hook_shopping_cart'}
               {hook h='displayShoppingCart'}

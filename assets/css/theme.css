@@ -7923,6 +7923,10 @@ body#checkout
 }
 .cart-item {
   padding: 1rem 0;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: solid 1px #bddbce;
 }
 .card-block {
   padding: 1.25rem 1.25rem 0.5rem;
