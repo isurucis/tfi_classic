@@ -49,19 +49,7 @@
         d='Shop.Theme.Global'
       }
     {/if}
-    {if $contact_infos.fax}
-      <br>
-      {* [1][/1] is for a HTML tag. *}
-      {l
-        s='Fax: [1]%fax%[/1]'
-        sprintf=[
-          '[1]' => '<span>',
-          '[/1]' => '</span>',
-          '%fax%' => $contact_infos.fax
-        ]
-        d='Shop.Theme.Global'
-      }
-    {/if}
+   
     {if $contact_infos.email && $display_email}
       <br>
         {l s='Email us:' d='Shop.Theme.Global'}
