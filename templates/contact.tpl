@@ -25,22 +25,22 @@
 {extends file='page.tpl'}
 
 {block name='page_header_container'}
-  <div><img src="https://packs.etropicalfish.com/modules/ps_imageslider/images/0daa1b6af2687d3081524c505ae4d25d7e183c59_contact-banner.jpg" /></div>
+  <div><img src="https://packs.etropicalfish.com/modules/ps_imageslider/images/f5ce2e631e2842050d922dcfbacda86949bcf9e4_contact-banner.jpg" /></div>
 {/block}
 
-  {if $layout === 'layouts/layout-left-column.tpl'}
-    {block name="left_column"}
-      <div id="left-column" class="col-xs-12 col-md-4 col-lg-3">
-        {hook h='displayContactLeftColumn'}
-      </div>
-    {/block}
-  {else if $layout === 'layouts/layout-right-column.tpl'}
-    {block name="right_column"}
-      <div id="right-column" class="col-xs-12 col-md-4 col-lg-3">
-        {hook h='displayContactRightColumn'}
-      </div>
-    {/block}
-  {/if}
+{if $layout === 'layouts/layout-left-column.tpl'}
+  {block name="left_column"}
+    <div id="left-column" class="col-xs-12 col-md-4 col-lg-3">
+      {hook h='displayContactLeftColumn'}
+    </div>
+  {/block}
+{else if $layout === 'layouts/layout-right-column.tpl'}
+  {block name="right_column"}
+    <div id="right-column" class="col-xs-12 col-md-4 col-lg-3">
+      {hook h='displayContactRightColumn'}
+    </div>
+  {/block}
+{/if}
 
 
 {block name='page_content'}
