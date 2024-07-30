@@ -30,7 +30,7 @@
                         '-reachable'      => $step_is_reachable,
                         '-complete'       => $step_is_complete,
                         'js-current-step' => $step_is_current
-                    ]|classnames}"
+                    ]|classnames} contentbox"
   >
     <h1 class="step-title js-step-title h3">
       <i class="material-icons rtl-no-flip done">&#xE876;</i>
