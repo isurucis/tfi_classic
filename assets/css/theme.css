@@ -5620,6 +5620,7 @@ body#checkout .container {
 body#checkout section.checkout-step {
   padding: 0.625rem;
   background-color: #fff;
+  margin-bottom: 8px;
 }
 #block-reassurance li:last-child,
 body#checkout section.checkout-step:last-child {
@@ -5632,11 +5633,11 @@ body#checkout section.checkout-step .step-title {
   font-weight: 500;
   text-transform: uppercase;
   cursor: pointer;
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
 }
 body#checkout section.checkout-step.-current + .checkout-step .step-title {
   padding-top: 1.25rem;
-  border-top: 1px solid #ddd;
+  /*border-top: 1px solid #ddd;*/
 }
 body#checkout section.checkout-step.-complete:first-of-type .step-title {
   padding-top: 0.625rem;
