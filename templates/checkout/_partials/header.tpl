@@ -36,9 +36,7 @@
           <div class="col-md-5 col-xs-12">
             {hook h='displayNav1'}
           </div>
-          <div class="col-md-7 right-nav">
-              {hook h='displayNav2'}
-          </div>
+          <div class="col-md-7 right-nav">&nbsp;</div>
         </div>
         <div class="hidden-md-up text-sm-center mobile">
           <div class="float-xs-left" id="menu-icon">
