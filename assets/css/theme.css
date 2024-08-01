@@ -2739,7 +2739,7 @@ tbody.collapse.in {
 #mobile_top_menu_wrapper .top-menu .collapse-icons .remove,
 #mobile_top_menu_wrapper .top-menu .collapse-icons[aria-expanded="true"] .add,
 .tab-content > .tab-pane {
-  display: none;
+  display: block; /* none; */
 }
 .tab-content > .active {
   display: block;
