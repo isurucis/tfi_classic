@@ -10270,6 +10270,10 @@ body#checkout
   }
 }
 @media (max-width: 767px) {
+  #header .logo {
+    max-width: 70%;
+    height: auto;
+  }
   .navbar-toggleable-sm .navbar-brand {
     display: block;
     float: none;
@@ -10570,8 +10574,8 @@ body#checkout
     min-height: 50px;
   }
   #header .top-logo img {
-    width: auto;
-    max-height: 2rem;
+    /*width: auto;
+    max-height: 2rem;*/
   }
   #header .top-logo > h1 {
     margin: 0;
