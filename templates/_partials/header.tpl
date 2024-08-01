@@ -71,7 +71,7 @@
           {/if}
         </div>
       </div>
-      <div id="mobile_top_menu_wrapper" class="row hidden-md-up" style="display:none;">
+      <div id="mobile_top_menu_wrapper" class="row hidden-md-up" style="display:block;">
         <div class="js-top-menu mobile" id="_mobile_top_menu"></div>
         <div class="top-logo" id="_mobile_logo"></div>
         <div class="js-top-menu-bottom">
