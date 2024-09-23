@@ -60,6 +60,13 @@
           <a href="{$product.url}" title="{$product.name}">
             {$product.name}
           </a>
+          ({$product.pack_quantity} Pack) | 
+          {foreach from=$product.features item=feature name=features}
+            {if $feature.id_feature == 6}
+              <p class="h2 pdp_scientificname" style="float: right;">{$feature.value|escape:'htmlall':'UTF-8'}</p>
+            {/if}
+          {foreachelse}
+          {/foreach}
         </div>
 
         {if $showPackProductsPrice}
