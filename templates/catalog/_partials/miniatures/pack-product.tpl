@@ -57,8 +57,40 @@
         </div>
 
         <div class="pack-product-name">
-        
-          <div style="display: block;">
+          <table width="100%">
+          <tr>
+            <td>
+              <div style="display: block;">
+                <a href="{$product.url}" title="{$product.name}">
+                  {$product.name}
+                </a>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="pack-product-quantity-scientificname-in">
+                <span class="pack-product-quantity-in">({$product.pack_quantity} Pack)</span> | 
+                <span class="pack-product-scientificname-in">
+                  {foreach from=$product.features item=feature name=features}
+                    {if $feature.id_feature == 6}
+                      <p class="pdp_scientificname-in" style="">{$feature.value|escape:'htmlall':'UTF-8'}</p>
+                    {/if}
+                  {foreachelse}
+                  {/foreach}
+                </span>
+              </div>
+            </td>
+          </tr>
+
+
+          
+          </table>
+
+
+
+          <!--div style="display: block;">
             <a href="{$product.url}" title="{$product.name}">
               {$product.name}
             </a>
@@ -73,7 +105,7 @@
               {foreachelse}
               {/foreach}
             </span>
-          </div>
+          </div -->
 
         </div>
         
