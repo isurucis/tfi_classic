@@ -7869,7 +7869,7 @@ body#checkout
   -webkit-box-flex: 0;
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #7a7a7a;
   font-weight: bold;
   color: #3a6095;
@@ -7892,15 +7892,18 @@ body#checkout
 
 .pack-product-quantity-scientificname-in {
   font-family: 'Roboto';
-  font-size: .9rem; color: #7a7a7a;
+  font-size: 1rem; color: #7a7a7a; font-weight: 400;
 }
 .pack-product-quantity-in{
   font-family: 'Roboto';
-  font-size: .9rem; color: #7387a4; font-weight: 500;
+  font-size: 1rem; color: #7387a4; font-weight: 500;
 }
 .pack-product-scientificname-in {
   font-family: 'Roboto';
-  font-size: .9rem; color: #7387a4; font-style: italic;
+  font-size: 1rem; color: #7387a4; font-style: italic;
+}
+.pack-product-line-in {
+  padding: 0 3px;
 }
 
 
