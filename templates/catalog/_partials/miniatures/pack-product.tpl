@@ -71,11 +71,11 @@
           <tr>
             <td>
               <div class="pack-product-quantity-scientificname-in">
-                <span class="pack-product-quantity-in">({$product.pack_quantity} Pack)</span> | 
-                <span class="pack-product-scientificname-in">
+                <span class="pack-product-quantity-in">({$product.pack_quantity} Pack)</span><span class="pack-product-line-in">|</span> 
+                <span class="pack-product-scientificname-in pdp_scientificname-in">
                   {foreach from=$product.features item=feature name=features}
                     {if $feature.id_feature == 6}
-                      <p class="pdp_scientificname-in" style="">{$feature.value|escape:'htmlall':'UTF-8'}</p>
+                      {$feature.value|escape:'htmlall':'UTF-8'}
                     {/if}
                   {foreachelse}
                   {/foreach}
