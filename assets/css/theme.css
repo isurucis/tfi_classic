@@ -8716,7 +8716,7 @@ body#checkout
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11);
 }
 #header .logo {
-  max-width: 40%;
+  max-width: 50%;  /* 40% */
   height: auto;
 }
 #header a:hover {
