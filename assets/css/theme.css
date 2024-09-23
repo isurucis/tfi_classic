@@ -7888,6 +7888,22 @@ body#checkout
   -ms-flex-align: center;
   align-items: center;
 }
+
+
+.pack-product-name-quantity-scientificname {
+  font-family: 'Roboto';
+  font-size: .9rem; color: #7a7a7a;
+}
+.pack-product-name-quantity {
+  font-family: 'Roboto';
+  font-size: .9rem; color: #7a7a7a; font-weight: 500;
+}
+.pack-product-name-scientificname {
+  font-family: 'Roboto';
+  font-size: .9rem; color: #7a7a7a; font-style: italic;
+}
+
+
 .product-refresh {
   margin-top: 1.25rem;
 }

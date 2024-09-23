@@ -57,16 +57,22 @@
         </div>
 
         <div class="pack-product-name">
-          <a href="{$product.url}" title="{$product.name}">
-            {$product.name}
-          </a>
-          ({$product.pack_quantity} Pack) | 
-          {foreach from=$product.features item=feature name=features}
-            {if $feature.id_feature == 6}
-              <p class="h2 pdp_scientificname" style="float: right;">{$feature.value|escape:'htmlall':'UTF-8'}</p>
-            {/if}
-          {foreachelse}
-          {/foreach}
+          <div class="">
+            <a href="{$product.url}" title="{$product.name}">
+              {$product.name}
+            </a>
+          </div>
+          <div class="pack-product-name-quantity-scientificname">
+            <span class="pack-product-name-quantity">({$product.pack_quantity} Pack)</span> | 
+            <span class="pack-product-name-scientificname">
+              {foreach from=$product.features item=feature name=features}
+                {if $feature.id_feature == 6}
+                  <p class="h2 pdp_scientificname" style="float: right;">{$feature.value|escape:'htmlall':'UTF-8'}</p>
+                {/if}
+              {foreachelse}
+              {/foreach}
+            </span>
+          </div>
         </div>
 
         {if $showPackProductsPrice}
